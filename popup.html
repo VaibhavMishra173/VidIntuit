@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VidIntuit Settings</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100 p-6" style="width: 350px;">
+  <h1 class="text-2xl font-bold text-center mb-6 text-blue-600">VidIntuit Settings</h1>
+  <div class="mb-4">
+    <input type="text" id="urlInput" placeholder="Enter URL" class="w-full p-3 border rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+  </div>
+  <button id="addUrl" class="bg-blue-500 w-full text-white px-4 py-2 rounded shadow hover:bg-blue-600 mb-4 transition duration-300">Add URL</button>
+  <ul id="urlList" class="space-y-3"></ul>
+  <script src="popup.js"></script>
+</body>
+</html>
